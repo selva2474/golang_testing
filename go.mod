@@ -1,4 +1,4 @@
-module test
+module github.com/selva2474/golang_testing
 
 go 1.17
 

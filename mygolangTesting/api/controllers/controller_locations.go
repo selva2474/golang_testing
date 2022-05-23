@@ -2,7 +2,8 @@ package controllers
 
 import (
 	"fmt"
-	"github.com/golang-testing/mygolangTesting/api/services"
+
+	"github.com/selva2474/golang_testing/mygolangTesting/api/services"
 
 	"net/http"
 

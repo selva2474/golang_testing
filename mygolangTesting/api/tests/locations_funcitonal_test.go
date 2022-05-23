@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/mercadolibre/golang-restclient/rest"
-	"github.com/selva/golang-testing/mygolangTesting/api/utils/errors"
+	"github.com/selva/golang_testing/mygolangTesting/api/utils/errors"
 	"github.com/stretchr/testify/assert"
 )
 

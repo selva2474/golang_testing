@@ -15,8 +15,8 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/golang-testing/mygolangTesting/api/services"
 	"github.com/mercadolibre/golang-restclient/rest"
-	"github.com/selva/golang-testing/mygolangTesting/api/utils/errors"
-	"github.com/selva/golang-testing/src/api/domain/locations"
+	"github.com/selva2474/golang_testing/mygolangTesting/api/utils/errors"
+	"github.com/selva2474/golang_testing/src/api/domain/locations"
 	"github.com/stretchr/testify/assert"
 )
 
