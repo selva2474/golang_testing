@@ -13,8 +13,8 @@ import (
 	"testing"
 
 	"github.com/gin-gonic/gin"
-	"github.com/golang-testing/mygolangTesting/api/services"
 	"github.com/mercadolibre/golang-restclient/rest"
+	"github.com/selva2474/golang_testing/mygolangTesting/api/services"
 	"github.com/selva2474/golang_testing/mygolangTesting/api/utils/errors"
 	"github.com/selva2474/golang_testing/src/api/domain/locations"
 	"github.com/stretchr/testify/assert"
@@ -71,7 +71,7 @@ func TestGetCountryNotFound(t *testing.T) {
 
 func TestGetCountryNoError(t *testing.T) {
 	getCountryFunc = func(countryID string) (*locations.Country, *errors.APIerror) {
-		return &locations.Country{ID: "BR", Name: "Brasil", TimeZone: "3.00+GMT"}, nil
+		return &locations.Country{Id: "BR", Name: "Brasil", TimeZone: "3.00+GMT"}, nil
 	}
 
 	services.LocationsService = &locationServiceMock{}
@@ -90,5 +90,5 @@ func TestGetCountryNoError(t *testing.T) {
 	fmt.Printf("this is the result %v", country)
 	assert.EqualValues(t, "Brasil", country.Name)
 	assert.Nil(t, err)
-	assert.EqualValues(t, "BR", country.ID)
+	assert.EqualValues(t, "BR", country.Id)
 }
