@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 	"github.com/mercadolibre/golang-restclient/rest"
-	"github.com/selva/golang-testing/mygolangTesting/api/utils/errors"
-	"github.com/selva/golang-testing/src/api/domain/locations"
+	"github.com/selva2474/golang_testing/mygolangTesting/api/utils/errors"
+	"github.com/selva2474/golang_testing/src/api/domain/locations"
 	// "github.com/golang-testing/mygolangTesting/api/domain/locations"
 	// "github.com/golang-testing/mygolangTesting/api/utils/errors"
 )

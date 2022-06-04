@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/mercadolibre/golang-restclient/rest"
-	"github.com/selva/golang-testing/src/api/app"
+	"github.com/selva2474/golang_testing/src/api/app"
 )
 
 func TestMain(m *testing.M) {

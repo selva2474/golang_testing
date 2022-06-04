@@ -3,12 +3,9 @@ package services
 import (
 	"fmt"
 
-	"github.com/selva/golang-testing/mygolangTesting/api/domain/locations/providerlocations"
-	"github.com/selva/golang-testing/mygolangTesting/api/utils/errors"
-	"github.com/selva/golang-testing/src/api/domain/locations"
-	// "github.com/golang-testing/mygolangTesting/api/domain/locations"
-	// "github.com/golang-testing/mygolangTesting/api/domain/locations/providerlocations"
-	// "github.com/golang-testing/mygolangTesting/api/utils/errors"
+	"github.com/selva2474/golang_testing/mygolangTesting/api/domain/locations/providerlocations"
+	"github.com/selva2474/golang_testing/mygolangTesting/api/utils/errors"
+	"github.com/selva2474/golang_testing/src/api/domain/locations"
 )
 
 // initialized = false set to true when the package is called
