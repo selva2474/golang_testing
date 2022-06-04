@@ -2,7 +2,8 @@ package services
 
 import (
 	"fmt"
-	"github.com/golang-testing/mygolangTesting/api/utils/mysort"
+
+	"github.com/selva2474/golang_testing/mygolangTesting/api/utils/mysort"
 )
 
 const (
