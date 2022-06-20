@@ -26,7 +26,7 @@
 ### Course Repo
 
 ```sh
-git clone https://github.com/federicoleon/golangTesting.git
+git clone https://github.com/selva2474/golang_testing.git
 ```
 
 ### Types ofTesting

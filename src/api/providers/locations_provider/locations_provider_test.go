@@ -1,11 +1,12 @@
 package locations_provider
 
 import (
-	"testing"
-	"github.com/stretchr/testify/assert"
 	"net/http"
-	"github.com/mercadolibre/golang-restclient/rest"
 	"os"
+	"testing"
+
+	"github.com/mercadolibre/golang-restclient/rest"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestMain(m *testing.M) {

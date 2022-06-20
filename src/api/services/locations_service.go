@@ -1,9 +1,9 @@
 package services
 
 import (
-	"github.com/federicoleon/golang-testing/src/api/domain/locations"
-	"github.com/federicoleon/golang-testing/src/api/utils/errors"
-	"github.com/federicoleon/golang-testing/src/api/providers/locations_provider"
+	"github.com/selva2474/golang_testing/src/api/domain/locations"
+	"github.com/selva2474/golang_testing/src/api/providers/locations_provider"
+	"github.com/selva2474/golang_testing/src/api/utils/errors"
 )
 
 type locationsService struct{}

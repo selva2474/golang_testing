@@ -1,13 +1,14 @@
 package test
 
 import (
-	"testing"
-	"net/http"
-	"github.com/stretchr/testify/assert"
-	"io/ioutil"
-	"github.com/mercadolibre/golang-restclient/rest"
-	"github.com/federicoleon/golang-testing/src/api/utils/errors"
 	"encoding/json"
+	"io/ioutil"
+	"net/http"
+	"testing"
+
+	"github.com/mercadolibre/golang-restclient/rest"
+	"github.com/selva2474/golang_testing/src/api/utils/errors"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestGetCountriesNotFound(t *testing.T) {

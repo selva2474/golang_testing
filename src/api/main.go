@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/federicoleon/golang-testing/src/api/app"
+	"github.com/selva2474/golang_testing/src/api/app"
 )
 
 func main() {

@@ -1,10 +1,11 @@
 package test
 
 import (
-	"testing"
 	"os"
-	"github.com/federicoleon/golang-testing/src/api/app"
+	"testing"
+
 	"github.com/mercadolibre/golang-restclient/rest"
+	"github.com/selva2474/golang_testing/src/api/app"
 )
 
 func TestMain(m *testing.M) {

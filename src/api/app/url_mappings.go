@@ -1,7 +1,7 @@
 package app
 
 import (
-	"github.com/federicoleon/golang-testing/src/api/controllers"
+	"github.com/selva2474/golang_testing/src/api/controllers"
 )
 
 func mapUrls() {

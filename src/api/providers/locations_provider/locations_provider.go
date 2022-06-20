@@ -1,12 +1,13 @@
 package locations_provider
 
 import (
-	"github.com/federicoleon/golang-testing/src/api/domain/locations"
-	"github.com/federicoleon/golang-testing/src/api/utils/errors"
-	"github.com/mercadolibre/golang-restclient/rest"
+	"encoding/json"
 	"fmt"
 	"net/http"
-	"encoding/json"
+
+	"github.com/mercadolibre/golang-restclient/rest"
+	"github.com/selva2474/golang_testing/src/api/domain/locations"
+	"github.com/selva2474/golang_testing/src/api/utils/errors"
 )
 
 const (

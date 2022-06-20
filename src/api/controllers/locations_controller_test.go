@@ -1,17 +1,18 @@
 package controllers
 
 import (
-	"testing"
-	"github.com/mercadolibre/golang-restclient/rest"
-	"os"
-	"net/http"
-	"github.com/gin-gonic/gin"
-	"net/http/httptest"
-	"github.com/stretchr/testify/assert"
 	"encoding/json"
-	"github.com/federicoleon/golang-testing/src/api/utils/errors"
-	"github.com/federicoleon/golang-testing/src/api/domain/locations"
-	"github.com/federicoleon/golang-testing/src/api/services"
+	"net/http"
+	"net/http/httptest"
+	"os"
+	"testing"
+
+	"github.com/gin-gonic/gin"
+	"github.com/mercadolibre/golang-restclient/rest"
+	"github.com/selva2474/golang_testing/src/api/domain/locations"
+	"github.com/selva2474/golang_testing/src/api/services"
+	"github.com/selva2474/golang_testing/src/api/utils/errors"
+	"github.com/stretchr/testify/assert"
 )
 
 var (

@@ -2,7 +2,8 @@ package services
 
 import (
 	"testing"
-	"github.com/federicoleon/golang-testing/src/api/utils/sort"
+
+	"github.com/selva2474/golang_testing/src/api/utils/sort"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -12,8 +13,8 @@ func TestSort(t *testing.T) {
 	Sort(elements)
 
 	assert.NotNil(t, elements)
-	assert.EqualValues(t,0, elements[0])
-	assert.EqualValues(t,9, elements[len(elements)-1])
+	assert.EqualValues(t, 0, elements[0])
+	assert.EqualValues(t, 9, elements[len(elements)-1])
 }
 
 func TestSortMoreThan10000(t *testing.T) {
